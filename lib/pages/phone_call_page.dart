@@ -17,13 +17,14 @@ class PhoneCallPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ConstrainedBox(
-              constraints: BoxConstraints.tightFor(width: Get.width * 0.50),
+              constraints:
+                  BoxConstraints.tightFor(width: Get.width * 0.50, height: 40),
               child: ElevatedButton(
                 onPressed: () {
-                  FlutterPhoneDirectCaller.callNumber('705720');
+                  FlutterPhoneDirectCaller.callNumber('678765');
                 },
                 child: const Text(
-                  'Call',
+                  'Call Me Now',
                 ),
               ),
             ),
